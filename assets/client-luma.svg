@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="70" viewBox="0 0 220 70" role="img" aria-label="LUMA logo placeholder">
+  <rect width="220" height="70" fill="none"/>
+  <g><path d="M16 48V20h8v20h28v8z" fill="#0f2138"/><circle cx="49" cy="22" r="8" fill="#25c2cd"/></g>
+  <text x="72" y="42" fill="#0f2138" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2">LUMA</text>
+</svg>

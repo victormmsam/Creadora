@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="70" viewBox="0 0 220 70" role="img" aria-label="MAREA logo placeholder">
+  <rect width="220" height="70" fill="none"/>
+  <g><path d="M10 29c8-12 16 12 24 0s16 12 24 0" fill="none" stroke="#0f2138" stroke-width="5" stroke-linecap="round"/><path d="M10 43c8-12 16 12 24 0s16 12 24 0" fill="none" stroke="#25c2cd" stroke-width="4" stroke-linecap="round"/></g>
+  <text x="72" y="42" fill="#0f2138" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="2">MAREA</text>
+</svg>

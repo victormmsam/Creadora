@@ -1,29 +1,56 @@
-# Cinematic Portfolio Demo
+# Creadora Digital — Website v3
 
-A small filmmaker/video portfolio built with plain HTML, CSS and JavaScript.
+Sitio estático en HTML, CSS y JavaScript puro. Preparado para GitHub + Vercel.
 
-## Files
-- `index.html` — page structure/content
-- `styles.css` — full responsive visual design
-- `script.js` — reveal animations, hover previews, mobile menu and demo form behavior
+## Páginas
 
-## Preview locally
-Open `index.html` directly in a browser, or serve the folder with VS Code Live Server.
+- `index.html` — homepage completa
+- `trabajo.html` — portafolio / proyectos
+- `proyecto-demo.html` — template para case studies
+- `servicios.html` — servicios y proceso
+- `nosotros.html` — enfoque / hub de compañía
+- `equipo.html` — staff
+- `andres.html` — perfil de Andrés Lima
+- `planes.html` — planes y precios
+- `testimonios.html` — reseñas
+- `salud.html` — landing especializada Sector Salud
+- `contacto.html` — formulario ampliado de contacto
+- `404.html` — página de error
 
-## Replace the demo media
-The demo currently uses external placeholder images and one public sample MP4. For a real project, create an `assets/` folder and change sources such as:
+## Contenido placeholder
 
-```html
-<source src="assets/videos/hero.mp4" type="video/mp4">
-```
+Los siguientes elementos son deliberadamente ficticios y deben reemplazarse antes de publicarlos como información real:
 
-For short background loops, aim for web-optimized clips rather than editing masters.
+- logos de clientes de la homepage
+- proyectos del portafolio y métricas
+- integrantes del equipo distintos de Andrés
+- experiencia profesional detallada de Andrés
+- precios generales marcados como `XXX`
+- todas las reseñas de `testimonios.html`
+- video del hero y showreel
 
-## Deploy to Vercel
-1. Put these files in a GitHub repository.
-2. Import the repository into Vercel.
-3. Vercel can deploy this as a static site with no framework.
-4. Connect your custom domain in Vercel's project settings.
+No se usan marcas conocidas como clientes ficticios para evitar sugerir relaciones comerciales inexistentes.
 
-## Contact form
-The included form is front-end only. Connect it later to a form service or your own backend/API.
+## Datos reales incorporados
+
+Según la propuesta suministrada:
+
+- Andrés Lima — CEO, Creadora Digital
+- creadorabo@gmail.com
+- +591 78879079
+- YouTube: @CreadoraDigitalBo
+- paquetes y precios de Sector Salud incluidos en `salud.html`
+
+## Publicación
+
+Sube todos los archivos y la carpeta `assets/` a la raíz del repositorio. Vercel puede desplegarlo como sitio estático con Framework Preset: Other y sin build command.
+
+
+## Cambios V4
+- Navegación reorganizada con icono de inicio y menú desplegable “Acerca de nosotros”.
+- Home simplificada: se retiraron preview de equipo, perfil de Andrés y showreel.
+- Servicios de la Home ahora incluyen videos placeholder que se reproducen solo al pasar el cursor.
+- Marquee de clientes usa logos SVG ficticios en lugar de palabras.
+- Home incluye formulario y contacto directo al final.
+- Planes incluye navegación por anclas, planes generales, paquetes reales del Sector Salud y producciones puntuales.
+- Nosotros fue rediseñada con una composición editorial más tranquila.
