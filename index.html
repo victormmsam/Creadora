@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Cinematic filmmaker portfolio demo built with HTML, CSS and JavaScript." />
+  <title>North Frame — Filmmaker Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="#top" class="logo" aria-label="North Frame home">NF<span>.</span></a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-button" aria-label="Open menu" aria-expanded="false">Menu</button>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="https://picsum.photos/seed/filmhero/1920/1080">
+        <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content reveal">
+        <p class="eyebrow">Director · Filmmaker · Editor</p>
+        <h1>Stories that<br><em>move.</em></h1>
+        <div class="hero-bottom">
+          <p>Commercial, documentary and branded films crafted with a cinematic eye.</p>
+          <a href="#work" class="round-link" aria-label="Explore selected work">↓</a>
+        </div>
+      </div>
+
+      <div class="sound-note">Visual demo · muted loop</div>
+    </section>
+
+    <section class="intro section-pad reveal">
+      <p class="section-label">01 / Introduction</p>
+      <p class="statement">
+        I create films focused on <span>human moments</span>, rich atmosphere and visual storytelling.
+      </p>
+    </section>
+
+    <section class="work section-pad" id="work">
+      <div class="section-heading reveal">
+        <p class="section-label">02 / Selected work</p>
+        <h2>Recent projects</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project-card reveal">
+          <a href="#" class="project-media" aria-label="View project Afterglow">
+            <video muted loop playsinline preload="none" poster="https://picsum.photos/seed/nightfilm/1400/900">
+              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+            </video>
+            <div class="project-number">01</div>
+            <div class="view-project">View film ↗</div>
+          </a>
+          <div class="project-meta">
+            <h3>Afterglow</h3>
+            <p>Fashion Film · 2026</p>
+          </div>
+        </article>
+
+        <article class="project-card project-offset reveal">
+          <a href="#" class="project-media" aria-label="View project Open Roads">
+            <video muted loop playsinline preload="none" poster="https://picsum.photos/seed/roadfilm/1400/900">
+              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+            </video>
+            <div class="project-number">02</div>
+            <div class="view-project">View film ↗</div>
+          </a>
+          <div class="project-meta">
+            <h3>Open Roads</h3>
+            <p>Automotive · 2026</p>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <a href="#" class="project-media" aria-label="View project Between Places">
+            <video muted loop playsinline preload="none" poster="https://picsum.photos/seed/documentaryfilm/1400/900">
+              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+            </video>
+            <div class="project-number">03</div>
+            <div class="view-project">View film ↗</div>
+          </a>
+          <div class="project-meta">
+            <h3>Between Places</h3>
+            <p>Documentary · 2025</p>
+          </div>
+        </article>
+
+        <article class="project-card project-offset reveal">
+          <a href="#" class="project-media" aria-label="View project Pulse">
+            <video muted loop playsinline preload="none" poster="https://picsum.photos/seed/concertfilm/1400/900">
+              <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4" />
+            </video>
+            <div class="project-number">04</div>
+            <div class="view-project">View film ↗</div>
+          </a>
+          <div class="project-meta">
+            <h3>Pulse</h3>
+            <p>Music Film · 2025</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="quote-section reveal" aria-label="Creative statement">
+      <div class="quote-image">
+        <img src="https://picsum.photos/seed/cameraoperator/1200/1500" alt="Placeholder portrait of a filmmaker at work" loading="lazy" />
+      </div>
+      <blockquote>
+        “Good images get attention.<br><em>Good stories stay.</em>”
+      </blockquote>
+    </section>
+
+    <section class="about section-pad" id="about">
+      <div class="about-grid">
+        <div class="reveal">
+          <p class="section-label">03 / About</p>
+          <h2>Film first.<br>Everything else follows.</h2>
+        </div>
+        <div class="about-copy reveal">
+          <p>
+            North Frame is a fictional filmmaker portfolio created as a demo. Replace this text with a short introduction about your work, your visual style and the kinds of projects you love creating.
+          </p>
+          <p>
+            The site is intentionally lightweight: plain HTML, CSS and JavaScript, with short web-optimized video loops used as visual accents.
+          </p>
+          <div class="services">
+            <span>Direction</span>
+            <span>Cinematography</span>
+            <span>Editing</span>
+            <span>Color</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="contact-top reveal">
+        <p class="section-label">04 / Contact</p>
+        <h2>Have a story<br>worth telling?</h2>
+      </div>
+
+      <form class="contact-form reveal" id="contact-form">
+        <label>
+          <span>Name</span>
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          <span>Email</span>
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label class="full-width">
+          <span>Project</span>
+          <textarea name="message" rows="4" placeholder="Tell me a little about your project..." required></textarea>
+        </label>
+        <div class="form-footer full-width">
+          <p id="form-status">Demo form — no backend connected yet.</p>
+          <button type="submit">Send inquiry ↗</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer section-pad">
+    <a href="#top" class="footer-logo">NORTH FRAME®</a>
+    <div class="footer-links">
+      <a href="#">Instagram</a>
+      <a href="#">Vimeo</a>
+      <a href="#">YouTube</a>
+    </div>
+    <p>Demo portfolio · <span id="year"></span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
